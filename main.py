@@ -2,7 +2,7 @@
 #
 # Gets frames from a webcam using cv2 and streams them using flask
 #
-#  DOES NOT WORK om repl, because the repl does not have access to a camera.  Pull this from git to a device that has python and a webcam
+#  DOES NOT WORK om repl, because the repl does not have access to a camera.  Pull this from git at https://github.com/robyuk/Webcam-Streaming to a device that has python and a webcam.  Index.html template is included in the Git distribution
 #
 import cv2
 from flask import Flask, render_template, Response
